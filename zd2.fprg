@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Czachas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-15 11:54:30 AM"/>
+        <attribute name="created" value="Q3phY2hhcztERVNLVE9QLUVFMkpFTjI7MjAyMi0xMS0xNTsxMTo0MDo0NiBBTTszMDAy"/>
+        <attribute name="edited" value="Q3phY2hhcztERVNLVE9QLUVFMkpFTjI7MjAyMi0xMS0xNTsxMTo1NDozMCBBTTsxOzMxMDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <while expression="a &lt; 0">
+                <output expression="&quot;Liczba mniejsza od zera. Podaj liczb&#281; jeszcze raz wi&#281;ksz&#261; od zera lub r&#243;wn&#261;&quot;" newline="True"/>
+                <input variable="a"/>
+            </while>
+            <output expression="&quot;Wszystko si&#281; zgadza&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
